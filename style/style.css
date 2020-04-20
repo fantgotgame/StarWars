@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    
+}
+a {
+    text-decoration: none;
+}
+.nav-list li:hover {
+    color: #aaa;
+}
+.page {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1195px;
+    margin: 0 auto;
+    background-position-x: -1px;
+    background-position-y: -1px;
+}
+.container {
+    width: 1060px;
+    height: 992px;
+    margin: 91px 190px 111px 190px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.nav-list li {
+    display: inline;
+    list-style-type:none;
+}
+.nav-list li:not(:last-child) {
+    padding-right: 15px;
+}
+.nav-list li:first-child {
+    margin-left: 71px;
+}
+.nav-list li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.title-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin: 0;;
+}
+.title {
+    margin-top: 78px;
+    margin-bottom: 0px;
+}
+.subtitle-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.subtitle {
+    margin-top: 5px;
+}
+.notice {
+    width: 572px;
+    height: 138px;
+    margin-top: 25px;
+}
+.notice-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #AFAFAF;
+    margin: 0;
+}
+.premier {
+    margin-top: 25px;
+}
+.premier-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B02000;
+}
+.date {
+margin-top: 5px;
+}
+.date-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.button-activate {
+    margin-top: 54px;
+    position: relative;
+}
+.button-watch {
+    left: 10px;
+    outline: none;
+    border: none;
+    width: 260px;
+    height: 65px;
+    border-radius: 300px;
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+}
+.button-title:hover {
+    color: lightgreen;
+    transition: 0.4s;
+}
+.button-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: 34px;
+    top: 25px;
+}
+.position-image {
+    position: relative;
+}
+.button-image {
+    position: absolute;
+    top: -1px;
+    left: -26px;
+}
+.button-image1,
+.button-image2,
+.button-image3 {
+    position: absolute;
+}
+.button-image1 {
+    left: 213px;
+    top: -7px;
+}
+.button-image2 {
+    left: 221px;
+    top: 1px;
+}
+.button-image3 {
+    top: 15px;
+    left: 236px;
+}
+.info-title {
+    margin-top: 59px;
+}
+.info-title-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.cards {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card {
+    width: 250px;
+    height: 187px;
+}
+.image-overlay-active {
+    width: 250px;
+    height: 187px;
+    
+    background: rgba(80, 80, 80, 0.8);
+    border-radius: 11px;
+}
+.episode-four {
+    background-image: url(../img/episode4.png); 
+    background-position: center;
+    border-radius: 10px;
+}
+.episode-five {
+    background-image: url(../img/episode5.png);
+    background-position: center;
+    border-radius: 10px;
+}
+.episode-six {
+    background-image: url(../img/episode6.png);
+    background-position: center;
+    border-radius: 10px;
+}
+.episode-one {
+    background-image: url(../img/episode1.png);
+    background-position: center;
+    border-radius: 10px;
+}
+.image-overlay-active:hover {
+   background: rgba(64, 101, 255, 0.8);
+}
+.card-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+.card-name {
+    width: 193px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 5px;
+    padding-left: 29px;
+}
+.rate-title {
+    padding: 0 12px 0 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+svg > *:hover {
+    fill: #fff;
+}
+
